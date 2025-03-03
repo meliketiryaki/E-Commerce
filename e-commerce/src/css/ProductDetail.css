@@ -1,0 +1,106 @@
+.detailsContainer {
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+}
+
+.detailsCardWithDesc {
+    padding: 6px;
+    width: 65%;
+    height: auto;
+    gap: 30px;
+    margin-right: 14px;
+}
+
+.detailsCard {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.titlePart {
+    height: auto;
+}
+
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.price {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 37px;
+    text-align: end;
+    color: palevioletred;
+    font-weight: 900;
+}
+
+.detailsOperationCard {
+    padding: 6px;
+    width: 35%;
+    height: auto;
+}
+
+.likePart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+
+.addToCartButton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 48px;
+    width: 70%;
+    color: white;
+    background: palevioletred;
+    border-radius: 20px;
+    border: none;
+}
+
+.addToCartButton:hover {
+    cursor: pointer;
+}
+
+.favIcon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.favIcon:hover {
+    cursor: pointer;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+.counter span {
+    font-size: 25px;
+}
+
+.plusminusIcon {
+    width: 25px;
+    height: 25px;
+}
+
+.plusminusIcon:hover {
+    cursor: pointer;
+}

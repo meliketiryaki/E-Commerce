@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  min-height: 100%;
+  background-color: rgb(242, 248, 246);
+}
+
+.basketProduct {
+  margin: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.basketProduct .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.basketProduct button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.productDesc {
+  margin: 2px;
+  color: palevioletred;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.productPr {
+  margin: 2px;
+  color: rgb(2, 156, 156);
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.basketTotalAmount {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(2, 156, 156);
+  font-size: 18px;
+  margin: 2px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.basketTotalAmount p {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: underline;
+}

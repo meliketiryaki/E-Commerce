@@ -1,0 +1,67 @@
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.productCard {
+    width: min-content;
+    height: auto;
+    /* border: 2px solid rgb(162, 158, 158); */
+    border-radius: 38px;
+    margin: 16px;
+    padding: 12px;
+    box-shadow: 1px 4px 3px lightgray;
+    background-color: white;
+}
+
+.productCard:hover {
+    box-shadow: 2px 5px 4px rgb(195, 232, 233);
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.image {
+    height: 180px;
+    width: 170px;
+    margin: 12px;
+}
+
+.productTitlePart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.productPrice {
+    text-align: right;
+    font-family: sans-serif;
+    font-style: oblique;
+    width: max-content;
+    width: max-content;
+    float: inline-end;
+}
+
+.buyButton {
+    border: none;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+    color: lightgray;
+    background-color: palevioletred;
+    border-radius: 32px;
+    height: 42px;
+    width: 50px;
+    float: inline-end;
+}
+
+.buyButton:hover {
+    box-shadow: 2px 5px 4px #c3e8e9;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.basketIcon {
+    font-size: 20px;
+}
