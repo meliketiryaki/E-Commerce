@@ -1,8 +1,18 @@
-# React + Vite
+Bu proje, React.js ve Redux kullanarak oluşturulmuş bir alışveriş sepeti uygulamasıdır. Kullanıcılar ürünleri sepete ekleyebilir, ürünlerin adetlerini güncelleyebilir ve sepetteki ürünleri silebilir. Ayrıca, kullanıcılar tema değiştirebilir ve sepetteki ürünleri görebilir.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Özellikler:
 
-Currently, two official plugins are available:
+Ürünleri sepete ekleme ve silme
+Sepetteki ürünlerin toplam fiyatını hesaplama
+Sepet görünümünü açma ve kapama (Drawer)
+Tema değiştirme (Dark Mode / Light Mode)
+Ürünleri arama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Teknolojiler
+Bu projede kullanılan ana teknolojiler:
+React.js - Kullanıcı arayüzü için
+Redux - Durum yönetimi
+Material UI - UI bileşenleri
+Axios - API talepleri için
+CSS - Stil ve düzenleme
+
